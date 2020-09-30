@@ -11,7 +11,7 @@ A game where you play Rock, Scissors with the Computer.
 
 To run the program: `python game.py`
 
-![enter info about image here](image here)
+![Program Screenshot of Game](rockpaperscissors.jpg)
 
 # Useful Websites
 
