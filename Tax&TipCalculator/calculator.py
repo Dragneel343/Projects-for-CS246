@@ -6,8 +6,14 @@ print
 def taxCalc (cost, percentageTax):
     return (cost * (percentageTax / 100));
 
+# Tip calculator function
 def tipCalc (cost, percentageTip):
     return (cost * (percentageTip / 100));
+
+#Total Calculator function
+def total (cost, percentageTax, percentageTip):
+    return (cost + (cost * (percentageTax / 100)) + (cost * (percentageTip / 100)));
+
 
 # Ask user if tip value should be calculated before or after tax [0 or 1]
 print ("Should the tip be calculated before [0], or after tax [1]? \n");
@@ -42,3 +48,7 @@ elif (tipSetting == 1):
 	# Return cost + cost of tax multiplied by tip percentage for tip
     costOfTip = taxCalc (costWithTax, percentageTip);
     print ("The cost of the tip calculated after tax is: $" + str(costOfTip));
+
+#Total Bill amount
+totalCost = total (cost, percentageTax, percentageTip);
+print ("Your total Bill amount is: $" + str(totalCost));

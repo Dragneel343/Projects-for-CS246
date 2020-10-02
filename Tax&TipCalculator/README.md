@@ -1,5 +1,5 @@
 # Overview
-A Calculator that helps calculate the a tip for your restuarant bill.
+A Calculator that helps calculate the tax and tip for your restuarant bill.
 
 
 # Devlopment Environment
@@ -11,7 +11,7 @@ A Calculator that helps calculate the a tip for your restuarant bill.
 
 To run the program: `python calculator.py`
 
-![Program Screenshot of Calculator](insert jpg)
+![Program Screenshot of Calculator](Tax&Tip.jpg)
 
 # Useful Websites
 
