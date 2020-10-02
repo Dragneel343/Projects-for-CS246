@@ -1,5 +1,5 @@
 # Overview
-A game where you play Rock, Scissors with the Computer.
+
 
 
 # Devlopment Environment
@@ -9,9 +9,9 @@ A game where you play Rock, Scissors with the Computer.
 
 # Execution
 
-To run the program: `python game.py`
+To run the program: `python calculator.py`
 
-![Program Screenshot of Game](rockpaperscissors.jpg)
+![Program Screenshot of Calculator](insert jpg)
 
 # Useful Websites
 
