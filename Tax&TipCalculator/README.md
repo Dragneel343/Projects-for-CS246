@@ -1,5 +1,5 @@
 # Overview
-
+A Calculator that helps calculate the a tip for your restuarant bill.
 
 
 # Devlopment Environment
