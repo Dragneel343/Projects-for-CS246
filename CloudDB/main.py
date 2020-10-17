@@ -8,3 +8,4 @@ import random
 cred = credentials.Certificate('./Service_account_key.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
+return db
