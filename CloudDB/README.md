@@ -1,6 +1,6 @@
 # Overview
-
-
+Creating a datbase that stores User information, 
+creates a wishlist for purchase, holds credit card info.
 
 # Devlopment Environment
 
