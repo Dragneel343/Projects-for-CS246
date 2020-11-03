@@ -9,10 +9,10 @@ creates a wishlist for purchase, holds credit card info.
 * Firebase
 
 # Execution
+To run the program: `python main.py`
 
 
-
-![Program Screenshot of Cloud Database](.jpg)
+![Program Screenshot of Cloud Database](Screenshot.jpg)
 
 # Useful Websites
 
