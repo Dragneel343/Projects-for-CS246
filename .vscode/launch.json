@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CodeLens (Launch) - FirstBank",
+            "request": "launch",
+            "mainClass": "FirstBank",
+            "projectName": "Projects for CS246_84cc8ef"
+        },
+        {
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",

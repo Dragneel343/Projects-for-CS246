@@ -4,12 +4,12 @@ public class Account {
     
     int balance;
     int previousTransaction;
-    string customerName;
-    string customerID;
+    String customerName;
+    String customerID;
 
-    Account(string cname, string cid) {
+    Account(String cname, String cid) {
         customerName = cname;
-        customerID - cid;
+        customerID = cid;
     }
 
     void deposit (int amount) {
@@ -40,27 +40,28 @@ public class Account {
         double interestRate = .0185;
         double newBalance = (balance + interestRate + years) + balance;
         System.out.println("The current interest rate is: " + (100 * interestRate) + "%");
-        System.out.println("After " + years + "years, your balance will be: " + newBalance);
+        System.out.println("After " + years + " years, your balance will be: " + newBalance);
     }
 
     void showMenu() {
         char option = '\0';
-        Scanner scanner = new Scannner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println();
         System.out.println("Welcome, " + customerName + "!");
         System.out.println("Your ID is: " + customerID);
         System.out.println();
-        System.out.pintln("What would you like to do?");
+        System.out.println("What would you like to do?");
         System.out.println();
-        System.out.pintln("A. Check your balance");
+        System.out.println("A. Check your balance");
         System.out.println("B. Make a deposit");
-        System.out.pintln("C. Make a withdrawal");
+        System.out.println("C. Make a withdrawal");
         System.out.println("D. View previous transaction");
-        System.out.pintln("E. Calculate interest");
+        System.out.println("E. Calculate interest");
         System.out.println("F. Exit");
 
         do {
             System.out.println();
-            System.out.pintln("Enter an option: ");
+            System.out.println("Enter an option: ");
             char option1 = scanner.next().charAt(0);
             option = Character.toUpperCase(option1);
             System.out.println();
@@ -68,9 +69,9 @@ public class Account {
             switch(option) {
                 case 'A':
                 System.out.println("==============================");
-                System.out.pintln("Balance = $" + balance);
+                System.out.println("Balance = $" + balance);
                 System.out.println("==============================");
-                System.out.pintln();
+                System.out.println();
                 break;
 
                 case 'B':
@@ -91,7 +92,7 @@ public class Account {
                 System.out.println("==============================");
                 getPreviousTransaction();
                 System.out.println("==============================");
-                System.out.pintln();
+                System.out.println();
                 break;
 
                 case 'E':

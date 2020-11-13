@@ -10,10 +10,11 @@ exit the application.
 * Visual Studio Code
 
 # Execution
-To run the program: `java main.py`
+To run the program: F5
 
 
-![Program Screenshot of Banking Application](Screenshot.jpg)
+![Program Screenshot of Banking Application](Screenshot_1.jpg)
+![Program Screenshot of Banking Application](Screenshot_2.jpg)
 
 # Useful Websites
 
