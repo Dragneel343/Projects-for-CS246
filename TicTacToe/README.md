@@ -1,5 +1,6 @@
 # Overview
-
+Plays Tic Tac Toe with a CPU that uses 
+random input
 
 # Devlopment Environment
 
@@ -10,8 +11,8 @@
 To run the program: F5
 
 
-![Program Screenshot of ](Screenshot_1.jpg)
-![Program Screenshot of ](Screenshot_2.jpg)
+![Program Screenshot of Tic Tac Toe](Screenshot.jpg)
+
 
 # Useful Websites
 
