@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SnakeGame",
+            "request": "launch",
+            "mainClass": "SnakeGame",
+            "projectName": "Projects for CS246_84cc8ef"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - snakeGame",
+            "request": "launch",
+            "mainClass": "snakeGame",
+            "projectName": "Projects for CS246_84cc8ef"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TicTacToe",
             "request": "launch",
             "mainClass": "TicTacToe",
