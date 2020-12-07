@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SpaceInvaders",
+            "request": "launch",
+            "mainClass": "coms.SpaceInvaders",
+            "projectName": "Projects for CS246_84cc8ef"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpaceInvaders",
+            "request": "launch",
+            "mainClass": "SpaceInvaders",
+            "projectName": "Projects for CS246_84cc8ef"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SnakeGame",
             "request": "launch",
             "mainClass": "SnakeGame",
